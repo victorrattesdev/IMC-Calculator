@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela IMC</title>
+    <link rel="stylesheet" href="./assets/style.css">;
+</head>
+
+<body>
+    <section class="container">
+        <h1>Tabela IMC</h1>
+        <p>
+        <h2><b>Preencha as informações abaixo para realizar o cálculo do seu IMC</b></h2>
+
+        <h3><B>IMC</B></h3>
+
+        <H4>Menos do que 18,5</H4>
+
+        <H4>Entre 18,5 e 24,9</H4>
+
+        <H4>Entre 25 e 29,9</H4>
+
+        <H4>Entre 30 e 34,9</H4>
+
+        <H4>Entre 35 e 39,9</H4>
+
+        <H4>Mais do que 40</H4>
+
+        </p>
+
+        <form action="/" id="formulario" method="POST">
+
+            <label for="Peso"><b>Peso</b></label>
+            <input type="text" id="Peso" name="Peso">
+
+            <label for="Altura">Altura</label>
+            <input type="text" id="Altura" name="Altura">
+
+            <button type="submit"> Calcular </button>
+
+        </form>
+        
+        <div id="resultado"></div>
+
+        <script src="./assets/IMC.js"></script>
+    </section>
+
+
+</body>
+
+</html>
